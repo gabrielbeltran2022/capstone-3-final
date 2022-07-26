@@ -1,0 +1,110 @@
+.n-container{
+	height: 35px;
+	padding: 7px;
+	background-color: #2a2a26;
+	color: whitesmoke;
+	font-family: 'Kanit', sans-serif;	
+}
+
+
+.n-row{
+	display:  flex;
+	justify-content: space-evenly;
+}
+
+.n-header{
+	letter-spacing: 2px;
+}
+
+
+
+/* n-ends here */
+/* nav start here */
+
+.nav-container{
+	height: 98px;
+	
+	
+}
+
+
+.logo img{
+	position: relative;
+	width: 180px;
+	height: 100px;
+	margin: 0 3px;
+	cursor: pointer;
+}
+
+.nav-row{
+	display: flex;
+	justify-content: space-between;
+}
+.items ul{
+	margin-top: 1.4rem;
+	align-items: center;
+	
+}
+
+
+
+.items li{
+	font-size: 20px;
+	margin: 10px	;
+	padding: 2px;
+	color: black;
+	display: inline-block;
+	letter-spacing: .5px;
+	font-family: 'Russo One', sans-serif;
+	
+}
+
+
+.nav-icons{
+	
+	margin: 30px
+
+	
+}
+
+.nav-icons span{
+	font-family: 'Koulen', cursive;
+	margin: 10px;
+	color: black;
+	transition: all 0.5s;
+}
+
+.items a :hover{
+	color: whitesmoke;
+	background-color: black;
+	padding: 2px;
+	border-radius: 9px;
+
+}
+
+.nav-cart{
+	position: absolute;
+	background-color: crimson;
+	font-size: 12px;
+	color: whitesmoke;
+	padding: 3px;
+	top: 43px;
+	right: 23px;
+	border-radius: 70px;
+	z-index: -1;
+
+}
+
+
+.wish-list{
+	position: absolute;
+	background-color: crimson;
+	font-size: 12px;
+	color: whitesmoke;
+	padding: 3px;
+	top: 43px;
+	right: 63px;
+	border-radius: 70px;
+	z-index: -1;
+
+}

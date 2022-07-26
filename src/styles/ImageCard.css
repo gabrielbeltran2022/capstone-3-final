@@ -1,0 +1,76 @@
+
+
+.image-card-inner{
+    height: 75vh;
+    display: flex;
+    margin: .4rem;
+    position: relative;
+    align-items: center;
+   
+   
+
+
+}
+
+.box1{
+    border: 1.7px solid white;
+    margin: 5px;
+    position: relative;
+    background: url(https://i.ytimg.com/vi/GD-ZqPNmzDs/maxresdefault.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    width: 320px;
+    height: 330px;
+    opacity: 0;
+
+}
+.box2{
+    border: 1.7px solid white;
+   margin: 5px;
+    position: relative;
+    background: url(https://brobible.com/wp-content/uploads/2018/01/miakhalifa_7_1_2018_21_26_58_249.jpg?resize=768,826);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    width: 250px;
+    height: 270px;
+    opacity: 0;
+}
+.box3{
+    border: 1.7px solid white;
+    margin: 5px;
+    position: relative;
+    background: url(https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/1280x1280/products/31032/292078/Fires-Trend-Men-Casual-Shoes-Autumn-New-Outdoor-Non-slip-Man-Sneakers-High-Quality-Hot-Sale__19169.1581664205.jpg?c=2?imbypass=on);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+}
+
+.image-container{
+    width: 100%;
+    height: 35vh;
+    
+    margin-top: 5px;
+    position: relative;
+}
+.image-inner-container{
+
+    text-align: center ;
+
+}
+
+
+
+.image-inner-container img{
+    
+    position: relative;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 60px;
+    width: 110px;
+    align-content: center;
+    
+    
+}

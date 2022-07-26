@@ -1,0 +1,164 @@
+.signup-container{
+	display: flex;
+	height: 75vh;
+	padding-left: 80px;
+	position: relative;
+	justify-content: space-between;
+	
+}
+
+
+.signup-image{
+	display: flex;
+	position: relative;
+	height: 80vh;
+	width: 80%;
+	
+	justify-content:  center;
+
+}
+
+
+.sign-form{
+
+	height: 80vh;
+	width: 600px;
+	padding: 20px;
+	
+	border-radius: 30px;
+	position: relative;
+	
+}
+
+
+.sign-form .title{
+	font-size: 50px;
+	font-weight: 500;
+	font-family: Staatliches;
+	letter-spacing: 2px;
+	position: relative;
+
+
+}
+
+.sign-form .title::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 50px;
+
+}
+
+.user-details{
+	position: absolute;
+	display: inline-block;
+	
+	height: 67vh;
+
+
+
+
+
+}
+
+.user-details .firstName{
+	font-size: 17px;
+	padding: 2px;
+	font-family: Kanit;
+}
+.user-details .lastName{
+	font-size: 17px;
+	padding: 2px;
+	font-family: Kanit;
+}
+.user-details .mobileNo{
+	font-size: 17px;
+	padding: 2px;
+	font-family: Kanit;
+}
+
+.user-details .password1{
+	font-size: 17px;
+	padding: 2px;
+
+	font-family: Kanit;
+}
+
+.user-details .password2{
+	font-size: 17px;
+	padding: 2px;
+	font-family: Kanit;
+}
+
+
+.user-details .email-form{
+	font-size: 17px;
+	padding: 2px;
+	
+	font-family: Kanit;
+	
+}
+
+.user-details .firstName input{
+	width: calc(100%/ 2 -  20px);
+	height: 35px;
+	width: 100%;
+	
+}
+.user-details .lastName input{
+	width: calc(100%/ 2 -  20px);
+	height: 35px;
+	width: 100%;
+	
+
+}
+
+.user-details .email-form input{
+	width: calc(100%/ 2 -  40px);
+	height: 35px;
+	width: 100%;
+
+	
+}
+.user-details .mobileNo input{
+	width: calc(100%/ 2 -  40px);
+	height: 35px;
+	width: 100%;
+	
+	
+}
+
+.user-details .password1 input{
+	width: calc(100%/ 2 -  40px);
+	height: 35px;
+	width: 100%;
+	
+
+	
+}
+.user-details .password2 input{
+	width: calc(100%/ 2 -  40px);
+	height: 35px;
+	width: 100%;
+
+	
+}
+
+.sign-btn{
+	padding: 14px;
+	border-radius: 20px;
+	width: 40%;
+	margin-left: 90px;
+	
+	background-color: black;
+	color: whitesmoke;
+	font-size: 17px;
+}
+
+button.sign-btn:hover{
+	color: black;
+	background-color: white;
+
+}

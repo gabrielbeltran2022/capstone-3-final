@@ -1,0 +1,87 @@
+.login-container{
+	display: flex;
+	height: 80vh;
+	padding-left: 80px;
+	position: relative;
+	justify-content: center;
+	background-image: url('https://i.redd.it/jrx2nb6j2q081.jpg');
+	background-repeat: no-repeat;
+	
+	 background-size: cover;
+
+}
+
+
+.login-form{
+	height: 55vh;
+	width: 400px;
+	padding: 20px;
+	border: 2px solid whitesmoke;
+	border-radius: 30px;
+	margin-top: 2rem;
+	position: relative;
+	background-color: whitesmoke;
+	border: 2px solid black;
+}
+
+.title-login{
+	font-size: 50px;
+	font-weight: 500;
+	font-family: Staatliches;
+	letter-spacing: 2px;
+
+	position: relative;
+}
+
+.user-login{
+	position: absolute;
+	display: inline-block;
+	padding: 10px;
+	height: 35vh;
+
+}
+
+
+.email-login{
+	font-size: 17px;
+	padding: 2px;
+	font-family: Kanit;
+}
+
+.password-login {
+	font-size: 17px;
+	padding: 2px;
+	font-family: Kanit;
+}
+
+.user-login .email-login input{
+	width: calc(100%/ 2 -  20px);
+	height: 35px;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.user-login .password-login input{
+	width: calc(100%/ 2 -  20px);
+	height: 35px;
+	width: 100%;
+	border-radius: 5px;
+}
+
+
+.login-btn{
+	padding: 14px;
+	border-radius: 20px;
+	width: 40%;
+	margin-left: 90px;
+	margin-top: 9px;
+	background-color: black;
+	color: whitesmoke;
+	font-size: 17px;
+}
+
+button.login-btn:hover{
+	color: black;
+	background-color: white;
+
+}
